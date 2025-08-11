@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Inclusión educativa en Argentina: ¿qué falta?</title>
+    <style>
+        :root {
+            --bg: #f7f7fb;
+            --card: #ffffff;
+            --accent: #0b5cff;
+            --muted: #666;
+            --maxw: 900px;
+        }
+
+        body {
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            background: var(--bg);
+            margin: 0;
+            padding: 24px;
+            color: #111;
+        }
+
+        .container {
+            max-width: var(--maxw);
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+            margin: 0;
+        }
+
+        .lead {
+            background: linear-gradient(90deg, rgba(11, 92, 255, 0.06), rgba(11, 92, 255, 0.02));
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 18px;
+        }
+
+        article {
+            background: var(--card);
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(13, 20, 40, 0.06);
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-top: 18px;
+        }
+
+        p {
+            line-height: 1.55;
+            color: #222;
+        }
+
+        .quote {
+            background: #f0f4ff;
+            border-left: 4px solid var(--accent);
+            padding: 10px 14px;
+            margin: 12px 0;
+            border-radius: 6px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 14px 0;
+        }
+
+        .stat {
+            background: #fafafa;
+            padding: 10px;
+            border-radius: 8px;
+            min-width: 140px;
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.03)
+        }
+
+        footer {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-top: 18px;
+        }
+
+        .refs {
+            font-size: 0.85rem;
+            margin-top: 10px;
+            color: var(--muted);
+        }
+
+        a.cta {
+            display: inline-block;
+            margin-top: 12px;
+            background: var(--accent);
+            color: #fff;
+            padding: 10px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        @media (max-width:600px) {
+            header {
+                gap: 10px
+            }
+
+            .stats {
+                flex-direction: column
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Inclusión educativa en Argentina: ¿qué falta para que todas y todos aprendan juntos?</h1>
+                <div style="font-size:0.9rem; color:var(--muted);">Por: Nahuel Maximiliano Gaitan (Trabajo periodístico)
+                    — basado en «La inclusión educativa de las personas con discapacidad en Argentina» (BID, 2024).
+                </div>
+            </div>
+        </header>
+
+        <div class="lead">
+            <strong>Resumen:</strong> Argentina tiene un marco legal fuerte a favor de la inclusión, pero muchas
+            barreras —físicas, actitudinales y pedagógicas— siguen impidiendo que personas con discapacidad accedan y
+            permanezcan en la escuela en igualdad de condiciones. Este artículo resume las ideas centrales del
+            documento, aporta datos y sugiere líneas prácticas de trabajo. 
+        </div>
+
+        <article>
+            <h2>1. ¿Cuál es el punto de partida?</h2>
+            <p>
+                El documento parte de una definición clara: la discapacidad es <em>relacional</em>, no un rasgo
+                individual. Esto significa que una limitación solo se vuelve discapacidad cuando el entorno —edificios,
+                prácticas escolares, políticas y actitudes— impide la participación plena de una persona. En
+                consecuencia, la intervención debe dirigirse al contexto, no solo al individuo.
+            </p>
+
+            <div class="stats" aria-hidden="true">
+                <div class="stat"><strong>3,7 millones</strong>
+                    <div style="font-size:0.85rem; color:var(--muted)">personas con alguna dificultad funcional (≈9,8%
+                        población, INDEC 2018).</div>
+                </div>
+                <div class="stat"><strong>~103.000</strong>
+                    <div style="font-size:0.85rem; color:var(--muted)">estudiantes en escuelas de modalidad especial;
+                        ~112.000 integrados en escuelas comunes.</div>
+                </div>
+                <div class="stat"><strong>2%</strong>
+                    <div style="font-size:0.85rem; color:var(--muted)">participación estimada de estudiantes con
+                        discapacidad en el sistema educativo (2022).</div>
+                </div>
+            </div>
+
+            <h2>2. ¿Qué barreras se describen?</h2>
+            <p>
+                El informe distingue varios tipos de obstáculos que actúan como barreras:
+                <strong>físicas</strong> (infraestructura inaccesible), <strong>comunicacionales</strong> (falta de
+                intérpretes, subtítulos o materiales en Braille),
+                <strong>didácticas</strong> (currículos rígidos, evaluaciones uniformes) y
+                <strong>actitudinales</strong> (prejuicios y baja expectativa). Todo ello reduce la posibilidad de
+                aprender y quedarse en la escuela.
+            </p>
+            <!-- Imagen ilustrativa -->
+            <figure style="margin:18px 0; text-align:center;">
+                <img src="barreras1.jpg" alt="Ejemplo de barreras de accesibilidad en una escuela" style="max-width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1)">
+                <figcaption style="font-size:0.85rem; color:#666; margin-top:6px;">
+                    Ejemplo visual de barreras físicas y de comunicación que pueden encontrarse en entornos escolares.
+                </figcaption>
+            </figure>
+
+            <div class="quote">
+                «Las barreras son la expresión de sistemas educativos rígidos y poco sensibles a las particularidades de
+                sus estudiantes».
+            </div>
+
+            <h2>3. ¿Qué propone el documento como solución?</h2>
+            <p>
+                Entre las claves: avanzar hacia un <strong>diseño universal del aprendizaje</strong> (es decir, diseñar
+                programas y entornos que puedan ser usados por todas las personas sin adaptaciones especiales),
+                implementar <strong>ajustes razonables</strong> cuando haga falta, y fortalecer la formación docente y
+                el rediseño institucional para eliminar barreras.
+            </p>
+
+            <h2>4. ¿Qué dice Ainscow y por qué importa?</h2>
+            <p>
+                Ainscow aporta una visión práctica: la inclusión es <strong>un proceso</strong> (no un fin inmediato),
+                exige <strong>identificar y eliminar barreras</strong>, y debe enfocarse en la <strong>presencia,
+                    participación y logros</strong> de todos los estudiantes, prestando atención especial a quienes
+                corren riesgo de exclusión. Esa mirada respalda el diseño universal: cambiar la escuela para que
+                funcione para la mayoría en vez de multiplicar programas especiales.
+            </p>
+
+            <h2>5. ¿Por qué sigue siendo difícil implantar la inclusión?</h2>
+            <p>
+                El informe identifica causas concretas: datos fragmentados, financiamiento insuficiente, falta de
+                formación docente, y normas locales o prácticas que todavía están pensadas desde un modelo médico y
+                segregador. Además, existen miedos sociales (que la inclusión «baje la calidad») y baja representación
+                de las propias personas con discapacidad en los procesos de toma de decisión.
+            </p>
+
+            <h2>6. Pistas concretas (lo que se puede empezar a hacer ya)</h2>
+            <ul>
+                <li>Mapear barreras de accesibilidad en cada escuela y priorizar las obras más urgentes.</li>
+                <li>Incorporar la formación en inclusión en todos los profesorados y en la capacitación en servicio
+                    (talleres prácticos y trabajo colaborativo). :contentReference[oaicite:10]{index=10}</li>
+                <li>Adoptar el diseño universal para materiales y evaluaciones: opciones múltiples para demostrar
+                    aprendizajes.</li>
+                <li>Crear equipos locales de apoyo (docente de aula + apoyo pedagógico + familias) que planifiquen
+                    ajustes razonables. </li>
+                <li>Mejorar los registros y datos (CUD, encuestas, relevamientos escolares) para diseñar políticas
+                    basadas en evidencia.</li>
+            </ul>
+
+            <h2>7. Cierre: ¿qué debería quedar claro?</h2>
+            <p>
+                El documento del BID muestra que Argentina ya cuenta con marcos legales y ejemplos de avance, pero la
+                transformación requiere políticas sostenidas, inversión y cambios de práctica en el día a día de las
+                escuelas. La inclusión no se logra con una medida aislada: es un trabajo colectivo y gradual que demanda
+                repensar la escuela desde quienes la habitan.
+            </p>
+
+            <a class="cta" href="./La-inclusion-educativa-de-las-personas-con-discapacidad-en-Argentina (1).pdf">Ver
+                fuentes y leer el documento</a>
+
+            <footer id="refs">
+                <div class="refs">
+                    <strong>Fuentes principales:</strong>
+                    <ul>
+                        <li>Documento: <em>La inclusión educativa de las personas con discapacidad en Argentina</em>,
+                            Néstor López & Tamara Vinacur (BID, 2024). Extractos y datos citados del PDF.</li>
+                        <li>Sobre diseño universal y ajustes razonables: sección 1.2 y Artículo 2 (Convención).</li>
+                        <li>Barreras y clasificaciones (Cobeñas & Grimaldi; ejemplos prácticos): capítulos 2.1 y 2.2.
+                        </li>
+                        <li>Ainscow — aprendizajes sobre inclusión como proceso y eliminación de barreras.
+                            </li>
+                    </ul>
+
+                </div>
+            </footer>
+        </article>
+    </div>
+</body>
+
+</html>
